@@ -1,8 +1,12 @@
 public class Horaire {
     
-    private String heure;
+    String heure;
 
     public Horaire(String heure){
         this.heure = heure;
+    }
+
+    public String getHeure(){
+        return this.heure;
     }
 }
